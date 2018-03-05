@@ -14,6 +14,7 @@
 		B84CAC892049DA2D00F7CDC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84CAC872049DA2D00F7CDC3 /* LaunchScreen.storyboard */; };
 		B84CAC942049DA2D00F7CDC3 /* ARKitScratchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84CAC932049DA2D00F7CDC3 /* ARKitScratchTests.swift */; };
 		B84CAC9F2049DA2D00F7CDC3 /* ARKitScratchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84CAC9E2049DA2D00F7CDC3 /* ARKitScratchUITests.swift */; };
+		B84CACAD2049E4D400F7CDC3 /* cup in Resources */ = {isa = PBXBuildFile; fileRef = B84CACAC2049E4D400F7CDC3 /* cup */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		B84CAC9A2049DA2D00F7CDC3 /* ARKitScratchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitScratchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84CAC9E2049DA2D00F7CDC3 /* ARKitScratchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitScratchUITests.swift; sourceTree = "<group>"; };
 		B84CACA02049DA2D00F7CDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B84CACAC2049E4D400F7CDC3 /* cup */ = {isa = PBXFileReference; lastKnownFileType = folder; name = cup; path = ../../../Downloads/Models.scnassets/cup; sourceTree = "<group>"; };
+		B88368572049E8E3001EEBA1 /* basketball_net.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = basketball_net.scn; path = ../../../../Downloads/basketball_net.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +100,13 @@
 		B84CAC7D2049DA2D00F7CDC3 /* ARKitScratch */ = {
 			isa = PBXGroup;
 			children = (
+				B84CACB02049E65B00F7CDC3 /* Models */,
 				B84CAC7E2049DA2D00F7CDC3 /* AppDelegate.swift */,
 				B84CAC802049DA2D00F7CDC3 /* ViewController.swift */,
 				B84CAC822049DA2D00F7CDC3 /* Main.storyboard */,
 				B84CAC852049DA2D00F7CDC3 /* Assets.xcassets */,
+				B84CACB12049E66800F7CDC3 /* net */,
+				B84CACAC2049E4D400F7CDC3 /* cup */,
 				B84CAC872049DA2D00F7CDC3 /* LaunchScreen.storyboard */,
 				B84CAC8A2049DA2D00F7CDC3 /* Info.plist */,
 			);
@@ -123,6 +129,21 @@
 				B84CACA02049DA2D00F7CDC3 /* Info.plist */,
 			);
 			path = ARKitScratchUITests;
+			sourceTree = "<group>";
+		};
+		B84CACB02049E65B00F7CDC3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B88368572049E8E3001EEBA1 /* basketball_net.scn */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B84CACB12049E66800F7CDC3 /* net */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = net;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +253,7 @@
 				B84CAC892049DA2D00F7CDC3 /* LaunchScreen.storyboard in Resources */,
 				B84CAC862049DA2D00F7CDC3 /* Assets.xcassets in Resources */,
 				B84CAC842049DA2D00F7CDC3 /* Main.storyboard in Resources */,
+				B84CACAD2049E4D400F7CDC3 /* cup in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
